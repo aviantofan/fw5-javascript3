@@ -1,0 +1,28 @@
+{
+  "name": "task4",
+  "version": "1.0.0",
+  "description": "Tugas fw5-javascript3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eexxprd/fw5-javascript3.git"
+  },
+  "keywords": [
+    "task",
+    "4"
+  ],
+  "author": "Tofan Avianto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eexxprd/fw5-javascript3/issues"
+  },
+  "homepage": "https://github.com/eexxprd/fw5-javascript3#readme",
+  "dependencies": {
+    "cross": "^1.0.0",
+    "cross-fetch": "^3.1.4",
+    "fetch": "^1.1.0"
+  }
+}
