@@ -43,8 +43,13 @@ const reminder = () =>{
     })
 }
 
-reminder().then((result)=>{
-    console.log(result)
-}) .catch((err) =>{
-    console.log(err)
-})
+async function ucapan(){ 
+    try{ 
+        const result = await reminder() 
+        console.log(result) 
+    }catch(err){ 
+        console.log(err)
+    }
+}
+
+ucapan()
