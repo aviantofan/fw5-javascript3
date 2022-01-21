@@ -13,10 +13,15 @@ const getmonth = (callback) =>{
 } 
 
 function nameMonth(a, data){
-    const fin = data.map(function(arr){
+    if (a == null){
+        const fin = data.map(function(arr){
         return [arr].join(" ")
-    })
-    console.log(fin)
+
+        })
+        console.log(fin)
+    } else {
+        console.log(a)
+    }
 }
 
 return getmonth(nameMonth)
